@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="sides">
+            <div id="todoGroup" class="group">
+                <select id="todoGroupSelect">
+                    <option value="test">test</option>
+                </select>
+                <button>+</button>
+                <button>-</button>
+            </div>
+            <div id='todoContainerList' class="todoContainer">
+                <div class="todo">
+                    <div class="title">test</div>
+                    <div class="date">test</div>
+                    <div class="checked"><input type="checkbox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="sides">
+            <div class="details">
+                <div class="title">test title</div>
+                <div class="date">test date</div>
+                <div class="detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi minima accusamus
+                    sapiente aperiam quidem quos excepturi cupiditate dolores, voluptates adipisci expedita beatae eius.
+                    Fuga deserunt magni quod molestias facilis possimus?</div>
+                <div class="checked"><button>Completed</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
